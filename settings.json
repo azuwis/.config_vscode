@@ -25,5 +25,6 @@
                 "vspacecode.space"
             ]
         }
-    ]
+    ],
+    "workbench.startupEditor": "none"
 }
