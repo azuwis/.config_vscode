@@ -37,6 +37,12 @@
     ],
     "vspacecode.bindingOverrides": [
         {
+            "keys": "t.a",
+            "name": "Toggle activity bar",
+            "type": "command",
+            "command": "workbench.action.toggleActivityBarVisibility"
+        },
+        {
             "keys": "t.m",
             "name": "Toggle minimap",
             "type": "command",
