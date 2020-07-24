@@ -6,6 +6,7 @@
     "telemetry.enableCrashReporter": false,
     "telemetry.enableTelemetry": false,
     "update.mode": "manual",
+    "window.menuBarVisibility": "toggle",
     "window.zoomLevel": 0,
     "workbench.activityBar.visible": false,
     "workbench.colorTheme": "Monokai Dimmed",
@@ -32,6 +33,14 @@
             "commands": [
                 "vspacecode.space"
             ]
+        }
+    ],
+    "vspacecode.bindingOverrides": [
+        {
+            "keys": "t.s",
+            "name": "Toggle sidebar",
+            "type": "command",
+            "command": "workbench.action.toggleSidebarVisibility"
         }
     ],
     "[magit]": {
