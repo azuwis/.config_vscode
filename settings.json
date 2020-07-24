@@ -3,5 +3,27 @@
     "telemetry.enableCrashReporter": false,
     "extensions.showRecommendationsOnlyOnDemand": true,
     "workbench.settings.enableNaturalLanguageSearch": false,
-    "workbench.enableExperiments": false
+    "workbench.enableExperiments": false,
+    "vim.easymotion": true,
+    "vim.useSystemClipboard": true,
+    "vim.normalModeKeyBindingsNonRecursive": [
+        {
+            "before": [
+                "<space>"
+            ],
+            "commands": [
+                "vspacecode.space"
+            ]
+        }
+    ],
+    "vim.visualModeKeyBindingsNonRecursive": [
+        {
+            "before": [
+                "<space>"
+            ],
+            "commands": [
+                "vspacecode.space"
+            ]
+        }
+    ]
 }
