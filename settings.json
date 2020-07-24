@@ -26,5 +26,6 @@
             ]
         }
     ],
-    "workbench.startupEditor": "none"
+    "workbench.startupEditor": "none",
+    "update.mode": "manual"
 }
