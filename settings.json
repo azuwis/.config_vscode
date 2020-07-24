@@ -7,6 +7,8 @@
     "telemetry.enableTelemetry": false,
     "update.mode": "manual",
     "window.zoomLevel": 0,
+    "workbench.activityBar.visible": false,
+    "workbench.colorTheme": "Monokai Dimmed",
     "workbench.enableExperiments": false,
     "workbench.settings.enableNaturalLanguageSearch": false,
     "workbench.startupEditor": "none",
