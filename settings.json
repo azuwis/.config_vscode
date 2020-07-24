@@ -2,6 +2,7 @@
     "editor.cursorBlinking": "solid",
     "editor.fontFamily": "monospace, 'Droid Sans Mono', 'Droid Sans Fallback'",
     "editor.fontSize": 20,
+    "editor.minimap.enabled": false,
     "extensions.showRecommendationsOnlyOnDemand": true,
     "telemetry.enableCrashReporter": false,
     "telemetry.enableTelemetry": false,
@@ -36,6 +37,12 @@
         }
     ],
     "vspacecode.bindingOverrides": [
+        {
+            "keys": "t.m",
+            "name": "Toggle minimap",
+            "type": "command",
+            "command": "editor.action.toggleMinimap"
+        },
         {
             "keys": "t.s",
             "name": "Toggle sidebar",
