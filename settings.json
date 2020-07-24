@@ -1,4 +1,7 @@
 {
     "telemetry.enableTelemetry": false,
-    "telemetry.enableCrashReporter": false
+    "telemetry.enableCrashReporter": false,
+    "extensions.showRecommendationsOnlyOnDemand": true,
+    "workbench.settings.enableNaturalLanguageSearch": false,
+    "workbench.enableExperiments": false
 }
