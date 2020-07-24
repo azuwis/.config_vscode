@@ -2,6 +2,7 @@
     "editor.cursorBlinking": "solid",
     "editor.fontSize": 20,
     "editor.minimap.enabled": false,
+    "editor.scrollbar.verticalScrollbarSize": 5,
     "extensions.showRecommendationsOnlyOnDemand": true,
     "telemetry.enableCrashReporter": false,
     "telemetry.enableTelemetry": false,
