@@ -1,9 +1,15 @@
 {
-    "telemetry.enableTelemetry": false,
-    "telemetry.enableCrashReporter": false,
+    "editor.cursorBlinking": "solid",
+    "editor.fontFamily": "monospace, 'Droid Sans Mono', 'Droid Sans Fallback'",
+    "editor.fontSize": 20,
     "extensions.showRecommendationsOnlyOnDemand": true,
-    "workbench.settings.enableNaturalLanguageSearch": false,
+    "telemetry.enableCrashReporter": false,
+    "telemetry.enableTelemetry": false,
+    "update.mode": "manual",
+    "window.zoomLevel": 0,
     "workbench.enableExperiments": false,
+    "workbench.settings.enableNaturalLanguageSearch": false,
+    "workbench.startupEditor": "none",
     "vim.easymotion": true,
     "vim.useSystemClipboard": true,
     "vim.normalModeKeyBindingsNonRecursive": [
@@ -26,6 +32,8 @@
             ]
         }
     ],
-    "workbench.startupEditor": "none",
-    "update.mode": "manual"
+    "[magit]": {
+        "editor.fontSize": 16,
+        "editor.lineHeight": 16
+    }
 }
