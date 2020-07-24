@@ -1,6 +1,5 @@
 {
     "editor.cursorBlinking": "solid",
-    "editor.fontFamily": "monospace, 'Droid Sans Mono', 'Droid Sans Fallback'",
     "editor.fontSize": 20,
     "editor.minimap.enabled": false,
     "extensions.showRecommendationsOnlyOnDemand": true,
