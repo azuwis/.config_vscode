@@ -38,6 +38,19 @@
     ],
     "vspacecode.bindingOverrides": [
         {
+            "keys": "f.e",
+            "name": "Open...",
+            "type": "bindings",
+            "bindings": [
+                {
+                    "key": "s",
+                    "name": "Open settings (JSON)",
+                    "type": "command",
+                    "command": "workbench.action.openSettingsJson"
+                }
+            ]
+        },
+        {
             "keys": "t.a",
             "name": "Toggle activity bar",
             "type": "command",
