@@ -72,5 +72,6 @@
     "[magit]": {
         "editor.fontSize": 16,
         "editor.lineHeight": 16
-    }
+    },
+    "files.insertFinalNewline": true
 }
