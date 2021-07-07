@@ -1,11 +1,6 @@
 // Place your key bindings in this file to override the defaults
 [
 	{
-		"key": "space",
-		"command": "vspacecode.space",
-		"when": "activeEditorGroupEmpty && focusedView == '' && !whichkeyActive"
-	},
-	{
 		"key": "tab",
 		"command": "extension.vim_tab",
 		"when": "editorFocus && vim.active && !inDebugRepl && vim.mode != 'Insert' && editorLangId != 'magit'"
@@ -107,5 +102,20 @@
 		"key": "ctrl+l",
 		"command": "file-browser.stepIn",
 		"when": "inFileBrowser"
+	},
+	{
+		"key": "space",
+		"command": "vspacecode.space",
+		"when": "activeEditorGroupEmpty && focusedView == '' && !whichkeyActive && !inputFocus"
+	},
+	{
+		"key": "space",
+		"command": "vspacecode.space",
+		"when": "sideBarFocus && !inputFocus && !whichkeyActive"
+	},
+	{
+		"key": "ctrl+l",
+		"command": "acceptSelectedSuggestion",
+		"when": "suggestWidgetMultipleSuggestions && suggestWidgetVisible && textInputFocus"
 	}
 ]
